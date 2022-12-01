@@ -1,4 +1,5 @@
 let submit = document.getElementById('submit')
+let successAlert = document.getElementById('success-alert')
 
 
 let input = document.getElementsByClassName('input')
@@ -29,6 +30,7 @@ submit.addEventListener('click', () => {
    }
    else
       enquiry.setCustomValidity("")
+      successAlert.style.display = "block";
 
 })
 

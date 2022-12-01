@@ -114,6 +114,34 @@ html,body
     
 }
 
+.alert {
+  padding: 20px;
+  margin-top: 80px;
+  background-color: #facf0f;
+  color: white;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 10px;
+  display: none;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  padding-right: 20px;
+}
+
+.closebtn:hover {
+  color: black;
+}
+
 .social-media
 {
     background-color: white;
